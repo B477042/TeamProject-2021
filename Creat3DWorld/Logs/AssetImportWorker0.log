@@ -1,0 +1,492 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.208; Version 2004; 64bit' Language: 'ko' Physical Memory: 16194 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+7699
+Successfully changed project path to: D:/unity/New Unity Project
+D:/unity/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 560X (ID=0x67ef)
+    Vendor:   
+    VRAM:     4075 MB
+    Driver:   27.20.1017.1011
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003129 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.798 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000775 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 3.930000 ms (FindLiveObjects: 0.402600 ms CreateObjectMapping: 0.109800 ms MarkObjects: 3.285200 ms  DeleteObjects: 0.128700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03d_low.prefab
+  artifactKey: Guid(2d8443e65eb7c274aae127e742ee00d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03d_low.prefab using Guid(2d8443e65eb7c274aae127e742ee00d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d1ad28483eb6e7107302f4148661e4') in 0.600670 seconds
+  Import took 0.605053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001018 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_05_low.prefab
+  artifactKey: Guid(393bb1456e9f83948ba1f8fa7a60a21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_05_low.prefab using Guid(393bb1456e9f83948ba1f8fa7a60a21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f122494b5fa8eb746ed236e883cd82') in 0.043121 seconds
+  Import took 0.047611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03f_low.prefab
+  artifactKey: Guid(d7291213fc9300244a03884334aa9e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03f_low.prefab using Guid(d7291213fc9300244a03884334aa9e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7ab63147a656f6ec707a39eb375bfe') in 0.042287 seconds
+  Import took 0.047230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_06_low.prefab
+  artifactKey: Guid(c410004c513d4f443a09614a36f7208d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_06_low.prefab using Guid(c410004c513d4f443a09614a36f7208d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acf83c604a70587e8b4d45df54813ba') in 0.039085 seconds
+  Import took 0.044866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000973 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_4et_01a_low.prefab
+  artifactKey: Guid(3954b4db11e9be84f9f73d87dead528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_4et_01a_low.prefab using Guid(3954b4db11e9be84f9f73d87dead528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75c95007632e3d0bee44473601ca1f7') in 0.036889 seconds
+  Import took 0.040815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low
+  artifactKey: Guid(62d26e47d710ae44980c6c79e1254329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low using Guid(62d26e47d710ae44980c6c79e1254329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b78f799e9f7e6e7f8c147471f16d895') in 0.016057 seconds
+  Import took 0.019100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_01a_low.prefab
+  artifactKey: Guid(5a675dcfe669d5e4e93d9c677c628ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_01a_low.prefab using Guid(5a675dcfe669d5e4e93d9c677c628ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2562e0eead334c3bef423fa0c3323d1') in 0.038405 seconds
+  Import took 0.043081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_02b_low.prefab
+  artifactKey: Guid(a23dbbdd521b5e341844b245d7bfc874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_02b_low.prefab using Guid(a23dbbdd521b5e341844b245d7bfc874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bd8263583b9b17b8e1b4f9c74fa430') in 0.041707 seconds
+  Import took 0.046130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_01_low.prefab
+  artifactKey: Guid(18bdd765d812b2c42ad1f0cb5ae5056d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_01_low.prefab using Guid(18bdd765d812b2c42ad1f0cb5ae5056d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154a9d2ff44a361a9d7cb186f5d65fb4') in 0.045331 seconds
+  Import took 0.049026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_2et_01b_low.prefab
+  artifactKey: Guid(3498c2828d18a8b4090fe9dc8891c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_2et_01b_low.prefab using Guid(3498c2828d18a8b4090fe9dc8891c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f82e6d6c382ed7d1b7c8fae2a72763d') in 0.040284 seconds
+  Import took 0.043694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_01a_low.prefab
+  artifactKey: Guid(aa1c793da98f72f46acfef95df976cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_01a_low.prefab using Guid(aa1c793da98f72f46acfef95df976cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3feacb5bb435cc59d67ebe60c22bcbc') in 0.037453 seconds
+  Import took 0.041618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_03_low.prefab
+  artifactKey: Guid(10b693990d3466444be14f6cf80a8aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_03_low.prefab using Guid(10b693990d3466444be14f6cf80a8aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f1eec97682fdb3f6f4e83c4c9a045c') in 0.043338 seconds
+  Import took 0.048081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_01_low.prefab
+  artifactKey: Guid(af7280f6efb690f499d445b8bd8fe6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_01_low.prefab using Guid(af7280f6efb690f499d445b8bd8fe6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1274545e859a5fd11ff350fcbc273188') in 0.041706 seconds
+  Import took 0.045413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03b_low.prefab
+  artifactKey: Guid(ad69cf5ca4bc99c4d9d2b20222d4e4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03b_low.prefab using Guid(ad69cf5ca4bc99c4d9d2b20222d4e4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c4c2a84abd92b2d052dff61c802afc') in 0.038515 seconds
+  Import took 0.043252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_04_low.prefab
+  artifactKey: Guid(ba9a28fd3bfa90a4eb50a1dcc18dd5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_04_low.prefab using Guid(ba9a28fd3bfa90a4eb50a1dcc18dd5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0927dad436283a286575995ce6b37d13') in 0.036164 seconds
+  Import took 0.039888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_01b_low.prefab
+  artifactKey: Guid(fe42eeefc6f114c4fa3284d5c7a7b6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_01b_low.prefab using Guid(fe42eeefc6f114c4fa3284d5c7a7b6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7fc61acdfa2f1e4a55ae4e1d6c907e') in 0.034265 seconds
+  Import took 0.037242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_02a_low.prefab
+  artifactKey: Guid(3807aeece2d202d4082fb6a74e59ee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_02a_low.prefab using Guid(3807aeece2d202d4082fb6a74e59ee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a84a8f4e7e293d21a7c8b7a6fc938a0') in 0.039307 seconds
+  Import took 0.043537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_4et_01_low.prefab
+  artifactKey: Guid(8dca6652d4a69d04b9cecde06ac6ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_4et_01_low.prefab using Guid(8dca6652d4a69d04b9cecde06ac6ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc5a7a6ac96834fdd3e8e1248e0a910') in 0.040726 seconds
+  Import took 0.044938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03c_low.prefab
+  artifactKey: Guid(6ec2847feecbeeb43871391ad3f8b993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03c_low.prefab using Guid(6ec2847feecbeeb43871391ad3f8b993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cc334691ef1bb58e609584b8795319') in 0.040403 seconds
+  Import took 0.044570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_02a_low.prefab
+  artifactKey: Guid(048494ddbb5f1c34dbe032094c193fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_02a_low.prefab using Guid(048494ddbb5f1c34dbe032094c193fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365eccc237715eeff9ff12cc03a32314') in 0.043378 seconds
+  Import took 0.047958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000662 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03a_low.prefab
+  artifactKey: Guid(5a760ff159dab1f45a917cb73f9ceb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03a_low.prefab using Guid(5a760ff159dab1f45a917cb73f9ceb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3d75f4428437de82ab386ad0d7323d') in 0.040699 seconds
+  Import took 0.044348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_03a_low.prefab
+  artifactKey: Guid(e9c22aa81b53e4c4496d78efbff45e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_03a_low.prefab using Guid(e9c22aa81b53e4c4496d78efbff45e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4377b27bb39accf6c8a647539f3912') in 0.039244 seconds
+  Import took 0.043792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_2et_01c_low.prefab
+  artifactKey: Guid(113399417063b314caa81e403a2b62f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_2et_01c_low.prefab using Guid(113399417063b314caa81e403a2b62f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f068814f2db799c32236357caa95abb2') in 0.037443 seconds
+  Import took 0.042284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_2et_01a_low.prefab
+  artifactKey: Guid(cbccaa2c65d9da344ae788e7c199ee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_2et_01a_low.prefab using Guid(cbccaa2c65d9da344ae788e7c199ee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bd79deb6d316db2ba532a09255867e') in 0.037734 seconds
+  Import took 0.041034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03_low.prefab
+  artifactKey: Guid(416eb61d4d822d3439396f526e539a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03_low.prefab using Guid(416eb61d4d822d3439396f526e539a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbba947b7cc68ab076ac0a5fc9c96f9') in 0.035733 seconds
+  Import took 0.040955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_03b_low.prefab
+  artifactKey: Guid(96f5c8fbe4b7c0141b5ba8c462960028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_03b_low.prefab using Guid(96f5c8fbe4b7c0141b5ba8c462960028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50411503d14b634ba35e5a5e09ab71f7') in 0.043572 seconds
+  Import took 0.048267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03e_low.prefab
+  artifactKey: Guid(5b4342e71d249de42b35e74c013bbe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03e_low.prefab using Guid(5b4342e71d249de42b35e74c013bbe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5157e915c6b89d268841f6a23c5800ff') in 0.039392 seconds
+  Import took 0.042367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_2et_01_low.prefab
+  artifactKey: Guid(f2ac51e00e24ec74295d01a4e5752ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_2et_01_low.prefab using Guid(f2ac51e00e24ec74295d01a4e5752ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b563e5a8889aa8763f6a38a3bd8ba700') in 0.036617 seconds
+  Import took 0.040713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_02_low.prefab
+  artifactKey: Guid(e934a6692eb737c4e9f135f16db53b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_02_low.prefab using Guid(e934a6692eb737c4e9f135f16db53b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9762ef0d6cd51674aeb04ea610c286bf') in 0.038577 seconds
+  Import took 0.042539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_02_low.prefab
+  artifactKey: Guid(804c4667a93cc884a87e62f15b0eb07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_02_low.prefab using Guid(804c4667a93cc884a87e62f15b0eb07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5354c134a9defb88c5c93def8f2c1a8') in 0.044219 seconds
+  Import took 0.047520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1516.996473 seconds.
+  path: Assets/CODE/CameraMove.cs
+  artifactKey: Guid(5bf8f7df4d0948b4ab47f1b2bcf65f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CODE/CameraMove.cs using Guid(5bf8f7df4d0948b4ab47f1b2bcf65f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6663cb1ebe9c7bbcee02c659a4657178') in 0.053850 seconds
+  Import took 0.057892 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.415 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.6 MB.
+System memory in use after: 61.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1574.
+Total: 3.410000 ms (FindLiveObjects: 0.223400 ms CreateObjectMapping: 0.118500 ms MarkObjects: 2.924800 ms  DeleteObjects: 0.140700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001590 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.7 MB.
+System memory in use after: 61.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1577.
+Total: 3.156700 ms (FindLiveObjects: 0.215400 ms CreateObjectMapping: 0.040600 ms MarkObjects: 2.723700 ms  DeleteObjects: 0.173600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.952311 seconds.
+  path: Assets/CODE/CameraMove.cs
+  artifactKey: Guid(5bf8f7df4d0948b4ab47f1b2bcf65f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CODE/CameraMove.cs using Guid(5bf8f7df4d0948b4ab47f1b2bcf65f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47ae030cdfb9ba195eaa1c795917b4f') in 0.006666 seconds
+  Import took 0.009561 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.7 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1580.
+Total: 3.393700 ms (FindLiveObjects: 0.302100 ms CreateObjectMapping: 0.032300 ms MarkObjects: 2.908300 ms  DeleteObjects: 0.146900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.7 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 2.955600 ms (FindLiveObjects: 0.433300 ms CreateObjectMapping: 0.112100 ms MarkObjects: 2.272700 ms  DeleteObjects: 0.130800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.7 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1586.
+Total: 2.911000 ms (FindLiveObjects: 0.267400 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.491800 ms  DeleteObjects: 0.104300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.530 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.7 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 2.527600 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.035000 ms MarkObjects: 2.172900 ms  DeleteObjects: 0.084300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001228 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.111 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.7 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1592.
+Total: 3.873500 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.055500 ms MarkObjects: 3.330600 ms  DeleteObjects: 0.118800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
