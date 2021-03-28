@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 
 
@@ -38,8 +36,13 @@ public class ControlHandle : MonoBehaviour
     bool bIsBreaking;
 
     float Acceleration;
-
     
+    //RigidBody
+    Rigidbody rgbody;
+
+    [SerializeField]
+    public Vector3 StartingPoint = Vector3.zero;
+   
 
 
     private void Awake()
@@ -59,6 +62,8 @@ public class ControlHandle : MonoBehaviour
     void Start()
     {
         //Input Event Mapping
+
+        rgbody = gameObject.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -110,7 +115,18 @@ public class ControlHandle : MonoBehaviour
             rotationDirection = RotationDirection.None;
         }
 
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            //gameObject.transform.position = StartingPoint;
+            //ResetInputActionParams();
+            //gameObject.transform.rotation = StartingRotation;
 
+            // SceneManager.LoadScene("SampleScene");
+            // UnityEngine.SceneManagement.
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        
 
        Accereate();
        Deceleration();
@@ -132,6 +148,7 @@ public class ControlHandle : MonoBehaviour
         {
             Velocity += Acceleration*0.8f;
              if (Velocity > MaxVelocity) Velocity = MaxVelocity;
+      
         }
 
         //후진
@@ -145,8 +162,9 @@ public class ControlHandle : MonoBehaviour
 
         var MovingPoint = gameObject.transform.forward * Velocity;
         //이동
+       // gameObject.GetComponent<Rigidbody>().AddForce(MovingPoint,ForceMode.Force);
 
-         gameObject.transform.position += MovingPoint;
+        gameObject.transform.position += MovingPoint;
       //  gameObject.transform.Translate(MovingPoint);
         //print("Accel");
 
@@ -188,7 +206,7 @@ public class ControlHandle : MonoBehaviour
         //1초에 45도가 회전 되게
         //Vector3 RotateValue=new Vector3(0,Time.deltaTime*45,0);
 
-        Vector3 RotateValue = new Vector3(0, 2.07f, 0);
+        Vector3 RotateValue = new Vector3(0, 1.07f, 0);
 
         print(Time.deltaTime);
 
@@ -210,7 +228,19 @@ public class ControlHandle : MonoBehaviour
         }
     }
 
-
+    void ResetInputActionParams()
+    {
+        Gear = 0;
+        Velocity = MinVelocity;
+        RPM = 0.0f;
+        HandleAngle = 0.2f;
+        bIsAccelerating = false;
+        bIsRotating = false;
+        bIsBreaking = false;
+        Acceleration = 0.001f;
+        accelDirection = AccelDirection.Forward;
+        rotationDirection = RotationDirection.None;
+    }
 
 
 }
